@@ -1,0 +1,8 @@
+theme = "cyberpunk"
+
+shell-integration-features = cursor,sudo,no-title
+
+confirm-close-surface=false
+
+font-family = "Orbitron Regular"
+font-size = 12
