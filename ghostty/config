@@ -1,4 +1,4 @@
-theme = "cyberpunk"
+theme = "CyberpunkScarletProtocol"
 
 shell-integration-features = cursor,sudo,no-title
 
@@ -6,3 +6,5 @@ confirm-close-surface=false
 
 font-family = "Orbitron Regular"
 font-size = 12
+
+background-opacity = 0.9
