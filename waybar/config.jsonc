@@ -17,6 +17,8 @@
         //"hyprland/window"
         "niri/workspaces",
         "custom/separator",
+        // "niri/window"
+        "custom/niri-window"
     ],
     "modules-center": [
         "clock"
@@ -34,6 +36,19 @@
         "tray"
 
     ],
+
+    "niri/window": {
+        "format": "{}",
+        "max-length": 40
+    },
+
+    "custom/niri-window": {
+        "exec": "~/.config/waybar/scripts/niri-window.sh",
+        "return-type": "json",
+        "tooltip": true,
+        "format": "{}"
+    },
+
 
     "hyprland/workspaces": {
         "format": "{icon}",

@@ -29,8 +29,9 @@ window#waybar.hidden {
     padding: 0;
 }
 
-/* Workspace styling - neon indicators */
-#workspaces {
+#workspaces,
+#custom-niri-window
+{
     background: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     padding: 2px;
@@ -126,7 +127,9 @@ window#waybar.hidden {
 
 
 /* Audio module */
-#pulseaudio {
+#pulseaudio,
+#custom-weather
+{
     background: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     padding: 4px 10px;
@@ -171,15 +174,6 @@ window#waybar.hidden {
     background: rgba(255, 0, 128, 0.4);
     box-shadow: 0 0 15px rgba(255, 0, 128, 0.6);
     text-shadow: 0 0 8px rgba(255, 0, 128, 0.8);
-}
-
-#custom-weather {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    padding: 4px 10px;
-    margin: 0 3px;
-    border: 1px solid rgba(255, 255, 0, 0.3);
-    color: #ffff00;
 }
 
 #custom-separator {
