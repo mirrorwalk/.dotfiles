@@ -4,3 +4,6 @@
 [submodule "nixos"]
 	path = nixos
 	url = git@github.com:mirrorwalk/nixos.git
+[submodule "nixos-private"]
+	path = nixos-private
+	url = git@github.com:mirrorwalk/nixos-private.git
